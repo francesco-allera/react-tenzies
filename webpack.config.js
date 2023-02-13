@@ -1,6 +1,6 @@
 module.exports = {
   "output": {
-    "filename": "[name].pack.js"
+    "filename": "./src/[name].pack.js"
   },
   "module": {
     "rules": [
@@ -20,6 +20,6 @@ module.exports = {
     ]
   },
   "entry": {
-    "index": "./index"
+    "index": "./src/index"
   }
 };
